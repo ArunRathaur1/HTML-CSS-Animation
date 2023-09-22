@@ -1,0 +1,123 @@
+<html>
+    <head>
+        <title>Solar System</title>
+        <style>
+            .total{
+                position: relative;
+                bottom:3cm;
+                right:2cm;
+            }
+            body{
+                background-color: rgb(2, 2, 35);
+            }
+            .sun{
+                position: relative;
+                width:5cm;
+                height:5cm;
+                border-radius: 50%;
+                background-color: yellow;
+                position: absolute;
+                margin-left:20cm;
+                margin-top:10cm;
+            }
+            .mercuary{
+                width:7cm;
+                height:7cm;
+                border-radius: 50%;
+              position: relative;
+             top:9cm;
+             left:19cm;
+             border:solid;
+               border-color: white;
+                animation: anime 2s linear infinite ;
+            }
+            .mercuarybody{
+                width:1cm;
+                height:1cm;
+                border-radius: 50%;
+                background-color: rgba(126, 6, 6, 0.732);
+                position: absolute;
+                top:1.3cm;;
+                }
+                .venice{
+                width:10cm;
+                height:10cm;
+                border-radius: 50%;
+              position: relative;
+                left:18cm;
+                top:0.5cm;
+                border:solid;
+               border-color: white;
+                animation: anime 2s linear infinite ;
+            }
+            .venicebody{
+                width:1cm;
+                height:1cm;
+                border-radius: 50%;
+                background-color: rgb(121, 84, 0);
+                position: absolute;
+                top:4cm;
+                left:-.5cm;
+                }
+                .earth{
+                width:13cm;
+                height:13cm;
+                border-radius: 50%;
+              position: relative;
+                left:17cm;
+                top:-11cm;
+               border:solid;
+               border-color: white;
+                animation: anime 2s linear infinite ;
+            }
+            .astroid{
+                width:17cm;
+                height:17cm;
+                border-radius: 50%;
+              position: relative;
+                left:15.5cm;
+                top:-26.5cm;
+               border:dotted;
+               border-width: 20px;
+               border-color: white;
+                animation: anime 2s linear infinite ;
+            }
+            .earthbody{
+                width:1cm;
+                height:1cm;
+                border-radius: 50%;
+                background-color: rgb(0, 102, 255);
+                position: absolute;
+                top:3.5cm;
+                }
+                @keyframes anime {
+                0%{
+                    transform: rotate(0deg);
+                }
+                100%{
+                    transform: rotate(360deg);
+                }
+                
+            }
+        </style>
+    </head>
+    <body>
+        <div class="total">
+        <div class="sun">
+            <div class="sunbody"></div>
+        </div>
+        
+        <div class="mercuary">
+            <div class="mercuarybody"></div>
+        </div>
+        <div class="venice">
+            <div class="venicebody"></div>
+        </div>
+        <div class="earth">
+            <div class="earthbody"></div>
+        </div>
+        <div class="astroid">
+        </div>
+    </div>
+    </body>
+</html>
